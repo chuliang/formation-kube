@@ -66,10 +66,10 @@ spec:
           value: redis
         - name: IMAGEBACKEND_DOMAIN
           value: imagebackend
-        resources:
-          requests:
-            cpu: "100m"
-            memory: "50Mi"
-          limits:
-            cpu: "150m"
-            memory: "200Mi"
+        # resources:
+        #   requests:
+        #     cpu: "50m"
+        #     memory: "20Mi"
+        #   limits:
+        #     cpu: "50m"
+        #     memory: "200Mi"
